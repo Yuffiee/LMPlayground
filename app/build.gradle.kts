@@ -426,6 +426,7 @@ tasks.register<Exec>("publishApkToBranch") {
     commandLine("sh", "ci/publish.sh")
 }
 
-tasks.named("bundleRelease") {
+// AGP registers bundle tasks lazily, so match instead of named().
+tasks.matching { it.name == "bundleRelease" }.configureEach {
     finalizedBy("publishApkToBranch")
 }
