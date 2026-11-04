@@ -63,7 +63,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Qwen 3 0.6B",
             filename = "Qwen3-0.6B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-04-29"),
             description = "Alibaba \u00B7 Lightweight chat model \u00B7 484Mb",
             logoRes = R.drawable.logo_qwen,
@@ -72,7 +72,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Qwen 3 1.7B",
             filename = "Qwen3-1.7B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Qwen3-1.7B-GGUF/resolve/main/Qwen3-1.7B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-04-29"),
             description = "Alibaba \u00B7 General-purpose chat model \u00B7 1.28Gb",
             logoRes = R.drawable.logo_qwen,
@@ -81,7 +81,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Qwen 3 4B",
             filename = "Qwen3-4B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-04-29"),
             description = "Alibaba \u00B7 General-purpose chat model \u00B7 2.5Gb",
             logoRes = R.drawable.logo_qwen,
@@ -90,40 +90,40 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Qwen 3.5 0.8B",
             filename = "Qwen_Qwen3.5-0.8B-IQ4_XS.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/bartowski/Qwen_Qwen3.5-0.8B-GGUF/resolve/main/Qwen_Qwen3.5-0.8B-IQ4_XS.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/bartowski/Qwen_Qwen3.5-0.8B-GGUF/resolve/main/Qwen_Qwen3.5-0.8B-IQ4_XS.gguf"),
             releaseDate = LocalDate.parse("2026-02-27"),
             description = "Alibaba \u00B7 Lightweight vision model \u00B7 499Mb + 207Mb mmproj",
             logoRes = R.drawable.logo_qwen,
             supportedLanguages = MULTILINGUAL_BROAD,
             mmprojFilename = "mmproj-Qwen_Qwen3.5-0.8B-f16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/bartowski/Qwen_Qwen3.5-0.8B-GGUF/resolve/main/mmproj-Qwen_Qwen3.5-0.8B-f16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/bartowski/Qwen_Qwen3.5-0.8B-GGUF/resolve/main/mmproj-Qwen_Qwen3.5-0.8B-f16.gguf")
         ),
         ModelInfo(
             name = "Qwen 3.5 2B",
             filename = "Qwen_Qwen3.5-2B-IQ4_XS.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/bartowski/Qwen_Qwen3.5-2B-GGUF/resolve/main/Qwen_Qwen3.5-2B-IQ4_XS.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/bartowski/Qwen_Qwen3.5-2B-GGUF/resolve/main/Qwen_Qwen3.5-2B-IQ4_XS.gguf"),
             releaseDate = LocalDate.parse("2026-02-27"),
             description = "Alibaba \u00B7 General-purpose vision model \u00B7 1.17Gb + 207Mb mmproj",
             logoRes = R.drawable.logo_qwen,
             supportedLanguages = MULTILINGUAL_BROAD,
             mmprojFilename = "mmproj-Qwen_Qwen3.5-2B-f16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/bartowski/Qwen_Qwen3.5-2B-GGUF/resolve/main/mmproj-Qwen_Qwen3.5-2B-f16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/bartowski/Qwen_Qwen3.5-2B-GGUF/resolve/main/mmproj-Qwen_Qwen3.5-2B-f16.gguf")
         ),
         ModelInfo(
             name = "Qwen 3.5 4B",
             filename = "Qwen_Qwen3.5-4B-IQ4_XS.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/bartowski/Qwen_Qwen3.5-4B-GGUF/resolve/main/Qwen_Qwen3.5-4B-IQ4_XS.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/bartowski/Qwen_Qwen3.5-4B-GGUF/resolve/main/Qwen_Qwen3.5-4B-IQ4_XS.gguf"),
             releaseDate = LocalDate.parse("2026-02-27"),
             description = "Alibaba \u00B7 General-purpose vision model \u00B7 2.49Gb + 207Mb mmproj",
             logoRes = R.drawable.logo_qwen,
             supportedLanguages = MULTILINGUAL_BROAD,
             mmprojFilename = "mmproj-Qwen_Qwen3.5-4B-f16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/bartowski/Qwen_Qwen3.5-4B-GGUF/resolve/main/mmproj-Qwen_Qwen3.5-4B-f16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/bartowski/Qwen_Qwen3.5-4B-GGUF/resolve/main/mmproj-Qwen_Qwen3.5-4B-f16.gguf")
         ),
         ModelInfo(
             name = "Gemma 3 1B",
             filename = "gemma-3-1b-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-03-12"),
             description = "Google \u00B7 Lightweight chat model \u00B7 806Mb",
             logoRes = R.drawable.logo_google,
@@ -132,18 +132,18 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Gemma 3 4B",
             filename = "gemma-3-4b-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-03-12"),
             description = "Google \u00B7 General-purpose chat model \u00B7 2.49Gb \u00B7 Supports vision with mmproj",
             logoRes = R.drawable.logo_google,
             supportedLanguages = MULTILINGUAL_BROAD,
             mmprojFilename = "gemma-3-4b-it-mmproj-f16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/lmstudio-community/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-mmproj-f16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/lmstudio-community/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-mmproj-f16.gguf")
         ),
         ModelInfo(
             name = "Llama 3.2 1B",
             filename = "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-09-25"),
             description = "Meta \u00B7 Lightweight chat model \u00B7 808Mb",
             logoRes = R.drawable.logo_meta,
@@ -152,7 +152,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Llama 3.2 3B",
             filename = "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-09-25"),
             description = "Meta \u00B7 General-purpose chat model \u00B7 2.02Gb",
             logoRes = R.drawable.logo_meta,
@@ -161,7 +161,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Phi-4 mini",
             filename = "Phi-4-mini-instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Phi-4-mini-instruct-GGUF/resolve/main/Phi-4-mini-instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Phi-4-mini-instruct-GGUF/resolve/main/Phi-4-mini-instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-01-15"),
             description = "Microsoft \u00B7 Compact reasoning model \u00B7 2.49Gb",
             logoRes = R.drawable.logo_microsoft,
@@ -170,7 +170,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "DeepSeek R1 Distill 1.5B",
             filename = "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-01-20"),
             description = "DeepSeek \u00B7 Compact reasoning model \u00B7 1.12Gb",
             logoRes = R.drawable.logo_deepseek,
@@ -179,7 +179,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "DeepSeek R1 Distill 7B",
             filename = "DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-01-20"),
             description = "DeepSeek \u00B7 Advanced reasoning model \u00B7 4.68Gb",
             logoRes = R.drawable.logo_deepseek,
@@ -188,7 +188,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "LFM2.5 350M",
             filename = "LFM2.5-350M-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/resolve/main/LFM2.5-350M-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-350M-GGUF/resolve/main/LFM2.5-350M-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-03-25"),
             description = "Liquid AI \u00B7 Ultra-lightweight chat model \u00B7 267Mb",
             logoRes = R.drawable.logo_liquid,
@@ -197,7 +197,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "LFM2.5 1.2B",
             filename = "LFM2.5-1.2B-Instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF/resolve/main/LFM2.5-1.2B-Instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-1.2B-Instruct-GGUF/resolve/main/LFM2.5-1.2B-Instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-08-19"),
             description = "Liquid AI \u00B7 Compact chat model \u00B7 697Mb",
             logoRes = R.drawable.logo_liquid,
@@ -209,7 +209,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "LFM2.5 1.2B Thinking",
             filename = "LFM2.5-1.2B-Thinking-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/LFM2.5-1.2B-Thinking-GGUF/resolve/main/LFM2.5-1.2B-Thinking-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/LFM2.5-1.2B-Thinking-GGUF/resolve/main/LFM2.5-1.2B-Thinking-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-01-09"),
             description = "Liquid AI \u00B7 Thinking model \u00B7 731Mb",
             logoRes = R.drawable.logo_liquid,
@@ -219,7 +219,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "LFM2.5 2.6B",
             filename = "LFM2.5-2.6B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-07-28"),
             description = "Liquid AI · Reasoning model · 1.67Gb",
             logoRes = R.drawable.logo_liquid,
@@ -228,51 +228,51 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Ministral 3 3B Instruct",
             filename = "Ministral-3-3B-Instruct-2512-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/Ministral-3-3B-Instruct-2512-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/Ministral-3-3B-Instruct-2512-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-12-17"),
             description = "Mistral \u00B7 Lightweight vision model \u00B7 2.15Gb + mmproj",
             logoRes = R.drawable.logo_mistral,
             supportedLanguages = MISTRAL_LANGS,
             mmprojFilename = "mmproj-Ministral-3-3B-Instruct-2512-F16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/mmproj-Ministral-3-3B-Instruct-2512-F16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/mmproj-Ministral-3-3B-Instruct-2512-F16.gguf")
         ),
         ModelInfo(
             name = "Ministral 3 3B Reasoning",
             filename = "Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-3B-Reasoning-2512-GGUF/resolve/main/Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-3B-Reasoning-2512-GGUF/resolve/main/Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-12-17"),
             description = "Mistral \u00B7 Lightweight vision reasoning model \u00B7 2.15Gb + mmproj",
             logoRes = R.drawable.logo_mistral,
             supportedLanguages = MISTRAL_LANGS,
             mmprojFilename = "mmproj-Ministral-3-3B-Reasoning-2512-F16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-3B-Reasoning-2512-GGUF/resolve/main/mmproj-Ministral-3-3B-Reasoning-2512-F16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-3B-Reasoning-2512-GGUF/resolve/main/mmproj-Ministral-3-3B-Reasoning-2512-F16.gguf")
         ),
         ModelInfo(
             name = "Ministral 3 8B Instruct",
             filename = "Ministral-3-8B-Instruct-2512-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-8B-Instruct-2512-GGUF/resolve/main/Ministral-3-8B-Instruct-2512-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-8B-Instruct-2512-GGUF/resolve/main/Ministral-3-8B-Instruct-2512-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-12-17"),
             description = "Mistral \u00B7 General-purpose vision model \u00B7 5.2Gb + mmproj",
             logoRes = R.drawable.logo_mistral,
             supportedLanguages = MISTRAL_LANGS,
             mmprojFilename = "mmproj-Ministral-3-8B-Instruct-2512-F16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-8B-Instruct-2512-GGUF/resolve/main/mmproj-Ministral-3-8B-Instruct-2512-F16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-8B-Instruct-2512-GGUF/resolve/main/mmproj-Ministral-3-8B-Instruct-2512-F16.gguf")
         ),
         ModelInfo(
             name = "Ministral 3 8B Reasoning",
             filename = "Ministral-3-8B-Reasoning-2512-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-8B-Reasoning-2512-GGUF/resolve/main/Ministral-3-8B-Reasoning-2512-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-8B-Reasoning-2512-GGUF/resolve/main/Ministral-3-8B-Reasoning-2512-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-12-17"),
             description = "Mistral \u00B7 Advanced vision reasoning model \u00B7 5.2Gb + mmproj",
             logoRes = R.drawable.logo_mistral,
             supportedLanguages = MISTRAL_LANGS,
             mmprojFilename = "mmproj-Ministral-3-8B-Reasoning-2512-F16.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/lmstudio-community/Ministral-3-8B-Reasoning-2512-GGUF/resolve/main/mmproj-Ministral-3-8B-Reasoning-2512-F16.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Ministral-3-8B-Reasoning-2512-GGUF/resolve/main/mmproj-Ministral-3-8B-Reasoning-2512-F16.gguf")
         ),
         ModelInfo(
             name = "Granite 4.0 Micro",
             filename = "granite-4.0-micro-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/granite-4.0-micro-GGUF/resolve/main/granite-4.0-micro-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/granite-4.0-micro-GGUF/resolve/main/granite-4.0-micro-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-02-26"),
             description = "IBM \u00B7 Enterprise chat model \u00B7 2.1Gb",
             logoRes = R.drawable.logo_ibm,
@@ -281,7 +281,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Granite 4.0 H-Tiny",
             filename = "granite-4.0-h-tiny-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/granite-4.0-h-tiny-GGUF/resolve/main/granite-4.0-h-tiny-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/granite-4.0-h-tiny-GGUF/resolve/main/granite-4.0-h-tiny-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-02-26"),
             description = "IBM \u00B7 Hybrid enterprise model \u00B7 4.23Gb",
             logoRes = R.drawable.logo_ibm,
@@ -290,7 +290,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Granite 4.2 3B",
             filename = "granite-4.2-3b-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/ibm-granite/granite-4.2-3b-GGUF/resolve/main/granite-4.2-3b-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/ibm-granite/granite-4.2-3b-GGUF/resolve/main/granite-4.2-3b-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-08-25"),
             description = "IBM \u00B7 Hybrid reasoning model \u00B7 2.24Gb",
             logoRes = R.drawable.logo_ibm,
@@ -302,7 +302,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Granite 4.1 3B",
             filename = "granite-4.1-3b-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-05-01"),
             description = "IBM \u00B7 Enterprise chat model \u00B7 2.10Gb",
             logoRes = R.drawable.logo_ibm,
@@ -312,7 +312,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Granite 4.1 8B",
             filename = "granite-4.1-8b-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/granite-4.1-8b-GGUF/resolve/main/granite-4.1-8b-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/granite-4.1-8b-GGUF/resolve/main/granite-4.1-8b-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-05-01"),
             description = "IBM \u00B7 Advanced enterprise model \u00B7 5.35Gb",
             logoRes = R.drawable.logo_ibm,
@@ -321,7 +321,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Nemotron 3 Nano 4B",
             filename = "NVIDIA-Nemotron3-Nano-4B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF/resolve/main/NVIDIA-Nemotron3-Nano-4B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF/resolve/main/NVIDIA-Nemotron3-Nano-4B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-12-15"),
             description = "NVIDIA \u00B7 Hybrid reasoning model \u00B7 2.84Gb",
             logoRes = R.drawable.logo_nvidia,
@@ -330,7 +330,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "SmolLM3 3B",
             filename = "HuggingFaceTB_SmolLM3-3B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/bartowski/HuggingFaceTB_SmolLM3-3B-GGUF/resolve/main/HuggingFaceTB_SmolLM3-3B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/bartowski/HuggingFaceTB_SmolLM3-3B-GGUF/resolve/main/HuggingFaceTB_SmolLM3-3B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-07-08"),
             description = "Hugging Face · Hybrid reasoning model · 1.92Gb",
             logoRes = R.drawable.logo_huggingface,
@@ -339,7 +339,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "MiniCPM5 1B",
             filename = "MiniCPM5-1B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/openbmb/MiniCPM5-1B-GGUF/resolve/main/MiniCPM5-1B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/openbmb/MiniCPM5-1B-GGUF/resolve/main/MiniCPM5-1B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-05-21"),
             description = "OpenBMB · Hybrid reasoning model · 688Mb",
             logoRes = R.drawable.logo_openbmb,
@@ -348,40 +348,40 @@ object ModelInfoProvider {
         ModelInfo(
             name = "LFM2.5 VL 450M",
             filename = "LFM2.5-VL-450M-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/LFM2.5-VL-450M-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/LFM2.5-VL-450M-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-04-08"),
             description = "Liquid AI \u00B7 Tiny vision model \u00B7 229Mb + 103Mb mmproj",
             logoRes = R.drawable.logo_liquid,
             supportedLanguages = LFM_VL_LANGS,
             mmprojFilename = "mmproj-LFM2.5-VL-450m-Q8_0.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/mmproj-LFM2.5-VL-450m-Q8_0.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/mmproj-LFM2.5-VL-450m-Q8_0.gguf")
         ),
         ModelInfo(
             name = "LFM2.5 VL 1.6B",
             filename = "LFM2.5-VL-1.6B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/main/LFM2.5-VL-1.6B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/main/LFM2.5-VL-1.6B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-01-05"),
             description = "Liquid AI \u00B7 Compact vision model \u00B7 731Mb + 583Mb mmproj",
             logoRes = R.drawable.logo_liquid,
             supportedLanguages = LFM_LANGS,
             mmprojFilename = "mmproj-LFM2.5-VL-1.6b-Q8_0.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/main/mmproj-LFM2.5-VL-1.6b-Q8_0.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/main/mmproj-LFM2.5-VL-1.6b-Q8_0.gguf")
         ),
         ModelInfo(
             name = "LFM2.5 VL 3B",
             filename = "LFM2.5-VL-3B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/main/LFM2.5-VL-3B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/main/LFM2.5-VL-3B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-08-12"),
             description = "Liquid AI \u00B7 Vision and OCR model \u00B7 1.67Gb + 583Mb mmproj",
             logoRes = R.drawable.logo_liquid,
             supportedLanguages = LFM25_LANGS,
             mmprojFilename = "mmproj-LFM2.5-VL-3B-Q8_0.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/main/mmproj-LFM2.5-VL-3B-Q8_0.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/main/mmproj-LFM2.5-VL-3B-Q8_0.gguf")
         ),
         ModelInfo(
             name = "MiniCPM5 2B",
             filename = "MiniCPM5-2B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/openbmb/MiniCPM5-2B-GGUF/resolve/main/MiniCPM5-2B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/openbmb/MiniCPM5-2B-GGUF/resolve/main/MiniCPM5-2B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-09-06"),
             description = "OpenBMB · Hybrid reasoning model · 1.56Gb",
             logoRes = R.drawable.logo_openbmb,
@@ -390,7 +390,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Spark-X2.5 4B",
             filename = "Spark-X2.5-4B-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/XHToken/Spark-X2.5-4B-GGUF/resolve/main/Spark-X2.5-4B-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/XHToken/Spark-X2.5-4B-GGUF/resolve/main/Spark-X2.5-4B-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-08-24"),
             description = "XHToken · Hybrid reasoning model · 2.60Gb",
             logoRes = R.drawable.logo_xhtoken,
@@ -399,7 +399,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Gemma 3n E2B",
             filename = "gemma-3n-E2B-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/gemma-3n-E2B-it-text-GGUF/resolve/main/gemma-3n-E2B-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/gemma-3n-E2B-it-text-GGUF/resolve/main/gemma-3n-E2B-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-05-14"),
             description = "Google \u00B7 Efficient on-device model \u00B7 2.79Gb",
             logoRes = R.drawable.logo_google,
@@ -408,7 +408,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Gemma 3n E4B",
             filename = "gemma-3n-E4B-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/gemma-3n-E4B-it-text-GGUF/resolve/main/gemma-3n-E4B-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/gemma-3n-E4B-it-text-GGUF/resolve/main/gemma-3n-E4B-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2025-05-14"),
             description = "Google \u00B7 Efficient on-device model \u00B7 4.24Gb",
             logoRes = R.drawable.logo_google,
@@ -417,7 +417,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Gemma 4 E2B",
             filename = "gemma-4-E2B_q4_0-it.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/google/gemma-4-E2B-it-qat-q4_0-gguf/resolve/main/gemma-4-E2B_q4_0-it.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/google/gemma-4-E2B-it-qat-q4_0-gguf/resolve/main/gemma-4-E2B_q4_0-it.gguf"),
             releaseDate = LocalDate.parse("2026-03-25"),
             description = "Google \u00B7 QAT on-device vision model \u00B7 3.35Gb + 532Mb mmproj",
             logoRes = R.drawable.logo_google,
@@ -425,23 +425,23 @@ object ModelInfoProvider {
             // Vision is quant-independent: the QAT q4_0 text model uses the same
             // BF16 mmproj as the Q4_K_M build (validated on-device).
             mmprojFilename = "mmproj-gemma-4-E2B-it-Q8_0.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/ggml-org/gemma-4-E2B-it-GGUF/resolve/main/mmproj-gemma-4-E2B-it-Q8_0.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/ggml-org/gemma-4-E2B-it-GGUF/resolve/main/mmproj-gemma-4-E2B-it-Q8_0.gguf")
         ),
         ModelInfo(
             name = "Gemma 4 E4B",
             filename = "gemma-4-E4B_q4_0-it.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-gguf/resolve/main/gemma-4-E4B_q4_0-it.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/google/gemma-4-E4B-it-qat-q4_0-gguf/resolve/main/gemma-4-E4B_q4_0-it.gguf"),
             releaseDate = LocalDate.parse("2026-03-25"),
             description = "Google \u00B7 QAT on-device vision model \u00B7 5.15Gb + 545Mb mmproj",
             logoRes = R.drawable.logo_google,
             supportedLanguages = MULTILINGUAL_BROAD,
             mmprojFilename = "mmproj-gemma-4-E4B-it-Q8_0.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/ggml-org/gemma-4-E4B-it-GGUF/resolve/main/mmproj-gemma-4-E4B-it-Q8_0.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/ggml-org/gemma-4-E4B-it-GGUF/resolve/main/mmproj-gemma-4-E4B-it-Q8_0.gguf")
         ),
         ModelInfo(
             name = "Gemma 4 12B",
             filename = "gemma-4-12b-it-qat-q4_0.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf/resolve/main/gemma-4-12b-it-qat-q4_0.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/google/gemma-4-12B-it-qat-q4_0-gguf/resolve/main/gemma-4-12b-it-qat-q4_0.gguf"),
             releaseDate = LocalDate.parse("2026-06-03"),
             description = "Google \u00B7 QAT advanced chat model \u00B7 6.98Gb",
             logoRes = R.drawable.logo_google,
@@ -453,31 +453,31 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Gemma 4 E2B (Q4_K_M)",
             filename = "gemma-4-E2B-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-03-25"),
             description = "Google \u00B7 Efficient vision model \u00B7 3.43Gb + 532Mb mmproj",
             logoRes = R.drawable.logo_google,
             supportedLanguages = MULTILINGUAL_BROAD,
             deprecated = true,
             mmprojFilename = "mmproj-gemma-4-E2B-it-Q8_0.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/ggml-org/gemma-4-E2B-it-GGUF/resolve/main/mmproj-gemma-4-E2B-it-Q8_0.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/ggml-org/gemma-4-E2B-it-GGUF/resolve/main/mmproj-gemma-4-E2B-it-Q8_0.gguf")
         ),
         ModelInfo(
             name = "Gemma 4 E4B (Q4_K_M)",
             filename = "gemma-4-E4B-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-03-25"),
             description = "Google \u00B7 Efficient vision model \u00B7 5.34Gb + 545Mb mmproj",
             logoRes = R.drawable.logo_google,
             supportedLanguages = MULTILINGUAL_BROAD,
             deprecated = true,
             mmprojFilename = "mmproj-gemma-4-E4B-it-Q8_0.gguf",
-            mmprojUri = Uri.parse("https://huggingface.co/ggml-org/gemma-4-E4B-it-GGUF/resolve/main/mmproj-gemma-4-E4B-it-Q8_0.gguf")
+            mmprojUri = Uri.parse("https://hf-mirror.com/ggml-org/gemma-4-E4B-it-GGUF/resolve/main/mmproj-gemma-4-E4B-it-Q8_0.gguf")
         ),
         ModelInfo(
             name = "Gemma 4 12B (Q4_K_M)",
             filename = "gemma-4-12B-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/ggml-org/gemma-4-12B-it-GGUF/resolve/main/gemma-4-12B-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/ggml-org/gemma-4-12B-it-GGUF/resolve/main/gemma-4-12B-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2026-06-03"),
             description = "Google \u00B7 Advanced chat model \u00B7 7.38Gb",
             logoRes = R.drawable.logo_google,
@@ -487,7 +487,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Qwen2.5 0.5B",
             filename = "Qwen2.5-0.5B-Instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-09-19"),
             description = "Alibaba \u00B7 Ultra-lightweight chat model \u00B7 398Mb",
             logoRes = R.drawable.logo_qwen,
@@ -496,7 +496,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Qwen2.5 1.5B",
             filename = "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-09-19"),
             description = "Alibaba \u00B7 Compact chat model \u00B7 986Mb",
             logoRes = R.drawable.logo_qwen,
@@ -505,7 +505,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Phi3.5 mini",
             filename = "Phi-3.5-mini-instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-08-20"),
             description = "Microsoft \u00B7 Compact chat model \u00B7 2.2Gb",
             logoRes = R.drawable.logo_microsoft,
@@ -514,7 +514,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Mistral 7B",
             filename = "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-05-22"),
             description = "Mistral \u00B7 General-purpose chat model \u00B7 4.37Gb",
             logoRes = R.drawable.logo_mistral,
@@ -523,7 +523,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Llama 3.1 8B",
             filename = "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-07-23"),
             description = "Meta \u00B7 General-purpose chat model \u00B7 4.92Gb",
             logoRes = R.drawable.logo_meta,
@@ -532,7 +532,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "Gemma2 9B",
             filename = "gemma-2-9b-it-Q4_K_M.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/bartowski/gemma-2-9b-it-GGUF/resolve/main/gemma-2-9b-it-Q4_K_M.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/bartowski/gemma-2-9b-it-GGUF/resolve/main/gemma-2-9b-it-Q4_K_M.gguf"),
             releaseDate = LocalDate.parse("2024-06-27"),
             description = "Google \u00B7 Advanced chat model \u00B7 5.44Gb",
             logoRes = R.drawable.logo_google,
@@ -541,7 +541,7 @@ object ModelInfoProvider {
         ModelInfo(
             name = "GPT-OSS 20B",
             filename = "gpt-oss-20b-mxfp4.gguf",
-            remoteUri = Uri.parse("https://huggingface.co/ggml-org/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-mxfp4.gguf"),
+            remoteUri = Uri.parse("https://hf-mirror.com/ggml-org/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-mxfp4.gguf"),
             releaseDate = LocalDate.parse("2025-08-05"),
             description = "OpenAI \u00B7 Large reasoning MoE model \u00B7 12.11Gb",
             logoRes = R.drawable.logo_openai,
@@ -684,7 +684,7 @@ object ModelInfoProvider {
     val embeddingModel: ModelInfo = ModelInfo(
         name = "EmbeddingGemma 300M",
         filename = "embeddinggemma-300m-Q4_0.gguf",
-        remoteUri = Uri.parse("https://huggingface.co/unsloth/embeddinggemma-300m-GGUF/resolve/main/embeddinggemma-300m-Q4_0.gguf"),
+        remoteUri = Uri.parse("https://hf-mirror.com/unsloth/embeddinggemma-300m-GGUF/resolve/main/embeddinggemma-300m-Q4_0.gguf"),
         releaseDate = LocalDate.parse("2025-09-04"),
         description = "Google · Document embedding model · 278Mb",
         logoRes = R.drawable.logo_google,
@@ -708,7 +708,7 @@ object ModelInfoProvider {
     val dictationModel: ModelInfo = ModelInfo(
         name = "Nemotron 3.5 ASR Streaming 0.6B",
         filename = "nemotron-3.5-asr-streaming-0.6b-q4_k.gguf",
-        remoteUri = Uri.parse("https://huggingface.co/mudler/parakeet-cpp-gguf/resolve/main/nemotron-3.5-asr-streaming-0.6b-q4_k.gguf"),
+        remoteUri = Uri.parse("https://hf-mirror.com/mudler/parakeet-cpp-gguf/resolve/main/nemotron-3.5-asr-streaming-0.6b-q4_k.gguf"),
         releaseDate = LocalDate.parse("2026-06-05"),
         description = "NVIDIA · Voice dictation · 718Mb",
         logoRes = R.drawable.logo_nvidia,
