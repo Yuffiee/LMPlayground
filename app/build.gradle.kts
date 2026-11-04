@@ -133,7 +133,7 @@ android {
         }
 
         ndk {
-            abiFilters += setOf("arm64-v8a", "x86_64")
+            abiFilters += setOf("arm64-v8a")
         }
     }
 
@@ -163,10 +163,10 @@ android {
         val localKeystore = rootProject.file("debug.keystore")
         val hasKeyInfo = userKeystore.exists()
         named("debug") {
-            storeFile = if (hasKeyInfo) userKeystore else localKeystore
-            storePassword = if (hasKeyInfo) System.getenv("STORE_PASSWORD") else "android"
-            keyAlias = if (hasKeyInfo) System.getenv("LM_PLAYGROUND_KEY_ALIAS") else "androiddebugkey"
-            keyPassword = if (hasKeyInfo) System.getenv("LM_PLAYGROUND_KEY_PASSWORD") else "android"
+            storeFile = localKeystore
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
         }
     }
 
@@ -187,9 +187,7 @@ android {
             // Package native debug symbols into the AAB so Play Console
             // symbolicates :llama crashes — crash visibility without a
             // crash-reporting SDK (see ARCHITECTURE.md, "Crash visibility").
-            ndk {
-                debugSymbolLevel = "SYMBOL_TABLE"
-            }
+            // debugSymbolLevel removed for the sideload build (APK size)
         }
     }
 
@@ -209,7 +207,7 @@ android {
         abi {
             isEnable = true
             reset()
-            include("arm64-v8a", "x86_64")
+            include("arm64-v8a")
             isUniversalApk = true
         }
     }
@@ -419,4 +417,15 @@ dependencies {
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
+}
+
+// --- sideload build: expose the release APK on the `apk-out` branch ---
+tasks.register<Exec>("publishApkToBranch") {
+    dependsOn("assembleRelease")
+    workingDir = rootProject.projectDir
+    commandLine("sh", "ci/publish.sh")
+}
+
+tasks.named("bundleRelease") {
+    finalizedBy("publishApkToBranch")
 }
